@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS-spam", "SMS-spam\SMS-sp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order", "Order\Order.csproj", "{76C158AE-5053-49FD-A857-F901AF43ADB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Order.Tests", "Order.Tests\Order.Tests.csproj", "{05D42D92-83F8-4882-B9FB-39C3938A8607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{76C158AE-5053-49FD-A857-F901AF43ADB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76C158AE-5053-49FD-A857-F901AF43ADB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76C158AE-5053-49FD-A857-F901AF43ADB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05D42D92-83F8-4882-B9FB-39C3938A8607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05D42D92-83F8-4882-B9FB-39C3938A8607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05D42D92-83F8-4882-B9FB-39C3938A8607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05D42D92-83F8-4882-B9FB-39C3938A8607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
