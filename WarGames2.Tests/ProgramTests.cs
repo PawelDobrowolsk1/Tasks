@@ -4,7 +4,10 @@ namespace WarGames2.Tests
     {
         [Theory]
         [InlineData("5","3", "31524")]
-        public void OrderOfLeavingSoldiers(string n, string k, string expected)
+        [InlineData("5","2", "24153")]
+        [InlineData("5","1", "12345")]
+        [InlineData("10","7", "74213610589")]
+        public void OrderOfLeavingSoldiers_ForGivenInputs_ReturnsExpectedValue(string n, string k, string expected)
         {
             //arrange 
 
